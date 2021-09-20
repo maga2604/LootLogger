@@ -19,6 +19,7 @@
 		054FF9D726F3C1BA0007FF69 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054FF9D626F3C1BA0007FF69 /* ItemStore.swift */; };
 		0593849026F73B6D00B09678 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0593848F26F73B6D00B09678 /* ItemCell.swift */; };
 		0593849226F76F7900B09678 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0593849126F76F7900B09678 /* DetailViewController.swift */; };
+		0593849426F9452500B09678 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0593849326F9452500B09678 /* ImageStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		054FF9D626F3C1BA0007FF69 /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
 		0593848F26F73B6D00B09678 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		0593849126F76F7900B09678 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		0593849326F9452500B09678 /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				054FF9D626F3C1BA0007FF69 /* ItemStore.swift */,
 				0593848F26F73B6D00B09678 /* ItemCell.swift */,
 				0593849126F76F7900B09678 /* DetailViewController.swift */,
+				0593849326F9452500B09678 /* ImageStore.swift */,
 			);
 			path = LootLogger;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				054FF9D526F3A64D0007FF69 /* Item.swift in Sources */,
 				054FF9D326F3A4B80007FF69 /* ItemsViewController.swift in Sources */,
 				0593849026F73B6D00B09678 /* ItemCell.swift in Sources */,
+				0593849426F9452500B09678 /* ImageStore.swift in Sources */,
 				054FF9A126F39EF50007FF69 /* AppDelegate.swift in Sources */,
 				054FF9D726F3C1BA0007FF69 /* ItemStore.swift in Sources */,
 				054FF9A326F39EF50007FF69 /* SceneDelegate.swift in Sources */,

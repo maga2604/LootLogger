@@ -12,6 +12,7 @@ class Item: Equatable, Codable {
     var valueInDollars: Int
     var serialNumber: String?
     let dateCreated: Date
+    let itemKey: String
     
     static func == (lhs: Item, rhs: Item) -> Bool {
         return lhs.name == rhs.name && lhs.serialNumber == rhs.serialNumber && lhs.valueInDollars == rhs.valueInDollars && lhs.dateCreated == rhs.dateCreated
@@ -22,6 +23,7 @@ class Item: Equatable, Codable {
         self.valueInDollars = valueInDollars
         self.serialNumber = serialNumber
         self.dateCreated = Date()
+        self.itemKey = UUID().uuidString
     }
     
     convenience init(random: Bool = false) {

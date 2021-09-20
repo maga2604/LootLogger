@@ -148,11 +148,14 @@
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="Date Created" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lCk-kq-MhY">
-                                        <rect key="frame" x="0.0" y="126" width="398" height="583"/>
+                                        <rect key="frame" x="0.0" y="126" width="398" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="248" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="f2A-cR-zkO">
+                                        <rect key="frame" x="0.0" y="154.5" width="398" height="554.5"/>
+                                    </imageView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="QWj-JY-B4e" firstAttribute="leading" secondItem="wHA-ej-I0p" secondAttribute="leading" id="h9Z-Jl-rBa"/>
@@ -191,6 +194,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="dateLabel" destination="lCk-kq-MhY" id="hUM-Tv-5rq"/>
+                        <outlet property="imageView" destination="f2A-cR-zkO" id="dpN-jY-IoX"/>
                         <outlet property="nameField" destination="Vrg-wv-8kL" id="StF-MD-B7k"/>
                         <outlet property="serialNumberField" destination="QWj-JY-B4e" id="mSd-1V-FYJ"/>
                         <outlet property="valueField" destination="wHA-ej-I0p" id="Mcj-QR-o1V"/>
